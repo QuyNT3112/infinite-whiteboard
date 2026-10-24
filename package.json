@@ -1,0 +1,50 @@
+{
+  "name": "infinite-whiteboard",
+  "version": "1.0.0",
+  "description": "A high-performance infinite canvas whiteboard web application inspired by Microsoft Whiteboard, built with React 19, TypeScript, HTML5 Canvas, and Vite.",
+  "type": "module",
+  "author": "QuyNT3112",
+  "license": "MIT",
+  "homepage": "https://github.com/QuyNT3112/infinite-whiteboard#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuyNT3112/infinite-whiteboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuyNT3112/infinite-whiteboard/issues"
+  },
+  "keywords": [
+    "whiteboard",
+    "infinite-canvas",
+    "react",
+    "typescript",
+    "vite",
+    "canvas-api",
+    "drawing-tool",
+    "sticky-notes"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "push": "node push-to-github.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "isomorphic-git": "^1.44.4",
+    "oxlint": "^1.88.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}
